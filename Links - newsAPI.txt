@@ -1,0 +1,4 @@
+https://newsapi.org/
+https://newsapi.org/docs/endpoints/everything
+https://newsapi.org/docs/endpoints/top-headlines
+https://newsapi.org/docs/endpoints/sources
