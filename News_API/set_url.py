@@ -100,7 +100,7 @@ class SetURL():
 
 
         # +'apiKey=API_KEY'
-        return self.__addin_API_KEY(self.url) 
+        return self.__adding_API_KEY(self.url) 
     
 
     def return_url_headlines(self, country : str = None, category : str = None,\
@@ -159,7 +159,7 @@ class SetURL():
             self.url += 'page=' + str(page) + '&'
 
         # +'apiKey=API_KEY'
-        return self.__addin_API_KEY(self.url) 
+        return self.__adding_API_KEY(self.url) 
         
 
     def return_url_source(self, category : str = None, language : str = None, \
@@ -199,11 +199,11 @@ class SetURL():
             self.url += 'country=' + str(country) + '&'
 
         # +'apiKey=API_KEY'
-        return self.__addin_API_KEY(self.url) 
+        return self.__adding_API_KEY(self.url) 
         
         
 
-    def __addin_API_KEY(self, url : str ) -> str:
+    def __adding_API_KEY(self, url : str ) -> str:
         """Adding API_KEY to the URL """
         return url + 'apiKey=' + self.ENV_VAR['API_KEY']
 
