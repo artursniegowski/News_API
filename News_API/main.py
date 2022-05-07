@@ -34,7 +34,7 @@ for category_news in categrory_list :
     response_dict = response.json()
 
     # checking if the request was sucesful
-    if response_dict['status'] == 'OK':
+    if response_dict['status'].lower() == 'ok':
 
         # Creating an empty list of dictioray for current news
         news_list_dict = []
@@ -65,6 +65,7 @@ for category_news in categrory_list :
         # key is our cathegory , and values are all the news
         dict_news_all[category_news] = news_list_dict
         reading_news_sucess = True
+        print("{} Reading news sucesful".format(category_news))
 
     # error occured during last call
     else:
@@ -92,6 +93,7 @@ if reading_news_sucess:
         dot_chart.add(categrory_list[nmber],dict_news_all[categrory_list[nmber]])
     # drawing the news into the chart
     dot_chart.render_to_file("News_API\\data\\NEWS_HEADLINES.svg")
+    print("Writing graph sucesful")
 
 else : 
     print("ERROR")
