@@ -33,6 +33,8 @@ for category_news in categrory_list :
     response = requests.get(url_r)
     response_dict = response.json()
 
+    # print(response_dict)
+
     # checking if the request was sucesful
     if response_dict['status'].lower() == 'ok':
 
