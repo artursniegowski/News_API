@@ -20,6 +20,7 @@ url = SetURL()
 # a comprehensive dictionary of all news for each category
 dict_news_all = {}
 
+
 # if the reading news was sucesful , draw the graph
 reading_news_sucess = False 
 
