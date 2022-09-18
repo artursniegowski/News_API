@@ -18,3 +18,12 @@ installed to run this game
 
 A file NEWS_HEADLINES.svg (showing all the results in an interactive way) 
 will be created in the data folder which is best to open with a webbrowser. 
+
+
+**Command line info:**</br>
+
+![Screenshot](docs/img/output_message.png)</br>
+
+**Output with all the headlines:**</br>
+
+![Screenshot](docs/img/output_result.png)</br>
