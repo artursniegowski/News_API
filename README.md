@@ -22,7 +22,7 @@ will be created in the data folder which is best to open with a webbrowser.
 
 **Command line info:**</br>
 
-![Screenshot](docs/img/output_message.png)</br>
+![Screenshot](docs/img/output_message.PNG)</br>
 
 **Output with all the headlines:**</br>
 
